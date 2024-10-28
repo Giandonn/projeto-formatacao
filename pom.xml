@@ -14,10 +14,10 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
         <!-- configs do nosso SonarQube -->
-        <!--<sonar.projectKey>chave_projeto</sonar.projectKey>
+        <!-- <sonar.projectKey>sqp_4f6f0e94951f3bcd90511beed966943249bc2dc8</sonar.projectKey>
         <sonar.projectName>nome projeto</sonar.projectName>
         <sonar.projectVersion>1.0</sonar.projectVersion>
-        <sonar.sources>src/main/java</sonar.sources> -->
+        <sonar.sources>src/main/java</sonar.sources>  -->
     </properties> 
 
     <dependencies>
