@@ -41,6 +41,6 @@ jobs:
       - name: Build and analyze
         shell: powershell
         run: |
-          .\.sonar\scanner\dotnet-sonarscanner begin /k:"projeto-formatacao" /d:sonar.token="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="${{ secrets.SONAR_HOST_URL }}"
+          .\.sonar\scanner\dotnet-sonarscanner begin /k:"projeto-formatacao" /d:sonar.token="sqp_11dbc9c920014b707cfebe281c05233e22577508" /d:sonar.host.url="https://sonarqube.labs.unimar.br/"
           dotnet build
-          .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.token="${{ secrets.SONAR_TOKEN }}"
+          .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.token="sqp_11dbc9c920014b707cfebe281c05233e22577508"
